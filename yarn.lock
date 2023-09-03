@@ -2,6 +2,11 @@
 # yarn lockfile v1
 
 
+"@snyk/protect@^1.1209.0":
+  version "1.1209.0"
+  resolved "https://registry.yarnpkg.com/@snyk/protect/-/protect-1.1209.0.tgz#9e938362cf684576ead289916274cf8bd5f4e0ce"
+  integrity sha512-E370Imyh7tnkgaYJdjL+Skb7thgcPcSiIISbUhA6/ZtjKGzGLveLXGAjID9nQlizoO+P+D3UfssnE16GJZjWPw==
+
 abbrev@1, abbrev@1.0.x:
   version "1.0.9"
   resolved "https://registry.yarnpkg.com/abbrev/-/abbrev-1.0.9.tgz#91b4792588a7738c25f35dd6f63752a2f8776135"
@@ -47,9 +52,14 @@ acorn@^3.0.4:
   version "3.3.0"
   resolved "https://registry.yarnpkg.com/acorn/-/acorn-3.3.0.tgz#45e37fb39e8da3f25baee3ff5369e2bb5f22017a"
 
-acorn@^4.0.3, acorn@^4.0.4:
+acorn@^4.0.3:
   version "4.0.11"
   resolved "https://registry.yarnpkg.com/acorn/-/acorn-4.0.11.tgz#edcda3bd937e7556410d42ed5860f67399c794c0"
+
+acorn@^5.0.0:
+  version "5.7.4"
+  resolved "https://registry.yarnpkg.com/acorn/-/acorn-5.7.4.tgz#3e8d8a9947d0599a1796d10225d7432f4a4acf5e"
+  integrity sha512-1D++VG7BhrtvQpNbBzovKNc1FLGGEE/oGe7b9xJm/RFHMBeUaUGpluV9RLjZa47YFdPcDAenEYuq9pQPcMdLJg==
 
 agent-base@2:
   version "2.0.1"
@@ -2023,6 +2033,7 @@ jade@^1.11.0:
     jstransformer "0.0.2"
     mkdirp "~0.5.0"
     transformers "2.1.0"
+    uglify-js "^2.4.19"
     void-elements "~2.0.1"
     with "~4.0.0"
 
